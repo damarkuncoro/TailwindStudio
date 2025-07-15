@@ -1,0 +1,10 @@
+{
+  "name": "cli",
+  "scripts": {
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@tailwind-studio/tailwind-suggester-engine": "workspace:*"
+
+  }
+}
