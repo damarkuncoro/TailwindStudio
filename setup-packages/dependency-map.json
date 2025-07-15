@@ -1,0 +1,13 @@
+{
+  "blocks": ["core", "types"],
+  "core": ["parser", "tailwind-suggester-engine", "utils", "types"],
+  "css-utils": ["types", "utils"],
+  "exporter": ["parser", "types"],
+  "parser": ["css-utils", "types"],
+  "plugin-analyzer": ["tailwind-suggester-engine", "types"],
+  "plugins": ["blocks", "core"],
+  "tailwind-suggester-engine": ["utils", "types"],
+  "ui-hint-table": ["tailwind-suggester-engine", "types"],
+  "utils": [],
+  "types": []
+}

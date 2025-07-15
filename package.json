@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-studio",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "exports": "turbo run exports"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "@vitest/ui": "^3.2.4",
+    "pnpm": "10.13.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.0.0",
+    "turbo": "^2.5.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
